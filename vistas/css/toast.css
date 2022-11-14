@@ -1,0 +1,87 @@
+.toast-conta1{
+    position: fixed;
+    top: 37vh;
+    left: 6vh;
+    height: 170px;
+    width: 348px;
+    background-color: red;
+    border-radius: 20px;
+    opacity: 0.950;
+    transition: all 400ms ease-out;
+}
+.toast-conta1 .toast-new .toast-T{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(184, 184, 184);
+    padding: 10px;
+    padding-top: 12px;
+}
+.toast-conta1 .toast-new .toast-T img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.toast-conta1 .toast-new .toast-T h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+.toast-conta1 .toast-new .toast-T small{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.toast-conta1 .toast-new .toast-T button{
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.toast-conta1 .toast-new .toast-T button:hover{
+    box-shadow: 0 0 0 2px rgb(207, 207, 207);
+}
+.toast-conta1 .toast-new .toast-B{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.toast-conta1 .toast-new .toast-B h5{
+    font-size: 30px;
+    color: black;
+}
+
+.toast-conta1 .toast-new .toast-F{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toast-conta1 .toast-new .toast-F button{
+    margin: 5px;
+    border: none;
+}
+.toast-conta1 .toast-new .toast-F .Aceptar{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.toast-conta1 .toast-new .toast-F .Rechazar{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.toast-conta1 .toast-new .toast-F .Aceptar:active{
+    border: solid 3px rgba(1, 109, 1, 0.562);
+}
+.toast-conta1 .toast-new .toast-F .Rechazar:active{
+    border: solid 3px rgba(204, 1, 1, 0.562);
+}
+.toast-conta1.close1{
+    opacity: 0;
+    transition: all 400ms ease-out;
+    visibility: hidden !important;
+}

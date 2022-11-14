@@ -1,0 +1,481 @@
+@media(max-width: 1920px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .offcanvas-bottom.show h5{
+        font-size: 30px;
+    }
+    .offcanvas-bottom.show input{
+        font-size: 25px;
+        border-radius: 15px;
+    }
+    .offcanvas-bottom.show button{
+        font-size: 25px;
+    }
+    .offcanvas-body::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    .offcanvas-body::-webkit-scrollbar:vertical{
+        width: 10px;
+    }
+    .offcanvas-body::-webkit-scrollbar-button:increment{
+        display: none;
+    }
+    .offcanvas-body::-webkit-scrollbar-thumb{
+        background-color: #797979;
+        border-radius: 20px;
+        border: 1px solid #bbbbbb;
+    }
+    .offcanvas-body::-webkit-scrollbar-track{
+        border-radius: 10px;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 140px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+@media(max-width: 1600px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .offcanvas-bottom.show h5{
+        font-size: 35px;
+    }
+    .offcanvas-bottom.show button{
+        font-size: 35px;
+    }
+    .offcanvas-body::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    .offcanvas-body::-webkit-scrollbar:vertical{
+        width: 10px;
+    }
+    .offcanvas-body::-webkit-scrollbar-button:increment{
+        display: none;
+    }
+    .offcanvas-body::-webkit-scrollbar-thumb{
+        background-color: #797979;
+        border-radius: 20px;
+        border: 1px solid #bbbbbb;
+    }
+    .offcanvas-body::-webkit-scrollbar-track{
+        border-radius: 10px;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+
+@media(max-width: 1440px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .offcanvas-bottom.show h5{
+        font-size: 35px;
+    }
+    .offcanvas-bottom.show button{
+        font-size: 35px;
+    }
+    .offcanvas-body::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    .offcanvas-body::-webkit-scrollbar:vertical{
+        width: 10px;
+    }
+    .offcanvas-body::-webkit-scrollbar-button:increment{
+        display: none;
+    }
+    .offcanvas-body::-webkit-scrollbar-thumb{
+        background-color: #797979;
+        border-radius: 20px;
+        border: 1px solid #bbbbbb;
+    }
+    .offcanvas-body::-webkit-scrollbar-track{
+        border-radius: 10px;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+@media(max-width: 1366px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .offcanvas-bottom.show h5{
+        font-size: 30px;
+    }
+    .offcanvas-bottom.show input{
+        font-size: 25px;
+        border-radius: 15px;
+    }
+    .offcanvas-bottom.show button{
+        font-size: 25px;
+    }
+    .offcanvas-body::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+    .offcanvas-body::-webkit-scrollbar:vertical{
+        width: 10px;
+    }
+    .offcanvas-body::-webkit-scrollbar-button:increment{
+        display: none;
+    }
+    .offcanvas-body::-webkit-scrollbar-thumb{
+        background-color: #797979;
+        border-radius: 20px;
+        border: 1px solid #bbbbbb;
+    }
+    .offcanvas-body::-webkit-scrollbar-track{
+        border-radius: 10px;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+@media(max-width: 1024px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 45px;
+        padding: 0px 8px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+@media(max-width: 768px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 45px;
+        padding: 0px 8px;
+        cursor: pointer;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+}
+@media(max-width: 430px){
+    .offcanvas-bottom.show{
+        height: 80%;
+        width: 80%;
+        margin-left: 9.5%;
+        box-shadow: 0px 2px 5px 2px #0000002e;
+    }
+    #col-editar{
+        padding: 5px 10px;
+    }
+    .form-control{
+        font-size: 13px;
+    }
+    #usuario{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #usuario:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 blueviolet;
+    }
+    #nombre{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #nombre:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #apellido{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #apellido:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #fecha{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #fecha:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #celular{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #celular:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #ciudad{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #ciudad:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #genero{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #genero:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    #correo{
+        padding: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    #correo:focus{
+        border-color: rgba(161, 161, 161, 0.452);
+        box-shadow: 0 0 2 0 gray;
+    }
+    .salir{
+        position: absolute;
+        top: -60px;
+        left: 0px;
+    }
+    .foto-user{
+        display: none;
+    }
+    .photo{
+        position: absolute;
+        top: 67px;
+        right: 0px;
+        border: none;
+        background: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 40px;
+        padding: 0px 5px;
+    }
+    .photo:active{
+        background-color: rgb(219, 219, 219);
+    }
+    .camFoto{
+        display: none;
+    }
+    #mostrar-pass{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    #mostrar-pass p{
+        margin: 5px;
+    }
+
+}

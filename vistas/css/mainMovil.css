@@ -1,0 +1,1243 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width: 1920px){
+    .btn-esc{
+        padding: 6px 10px 0px 10px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .circulo{
+        position: relative;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 37vh;
+        border-radius: 0px 0px 40% 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        margin-bottom: 1em;
+    }
+    .circulo .foto{
+        position: relative;
+        border-radius: 50%;
+        background-color: white;
+        margin-right: 2em;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 220px;
+        width: 210px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 35px;
+        margin: 0px;
+    }
+    /*============================
+    Cuerpo web 1366px
+    ==============================*/
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        width: 80%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .salir{
+        position: relative;
+        left: 92%;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .col-xxl-4{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 32px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 30px;
+        margin: 0;
+    }
+    .paragraph{
+        font-size: 25px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 25px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    .modal-header{
+        padding: 20px;
+    }
+    .modal-header button{
+        width: 10px;
+        height: 10px;
+        padding: 10px !important;
+        margin: 0px !important;
+    }
+    .modal-title{
+        font-size: 25px;
+    }
+    .modal-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .modal-footer button{
+        font-size: 25px;
+    }
+    /*==================================
+        Carrouesel editado 1366px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 400px;
+    }
+    #carousel-item img{
+        height: 280px !important;
+        margin-left: 22%;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+}
+@media(max-width: 1600px){
+    .btn-esc{
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .circulo{
+        position: relative;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 45vh;
+        /* border-radius: 0px 0px 60% 60%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .circulo .foto{
+        position: relative;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 35px;
+        margin: 0px;
+    }
+    /*============================
+    Cuerpo web 1440px
+    ==============================*/
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        border-radius: 20px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .salir{
+        position: relative;
+        left: 92%;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .col-xxl-4{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 40px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 35px;
+        margin: 0;
+    }
+    .paragraph{
+        font-size: 30px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 30px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    .modal-title{
+        font-size: 25px;
+    }
+}
+@media(max-width: 1440px){
+    .btn-esc{
+        padding: 6px 10px 0px 10px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .circulo{
+        position: relative;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 37vh;
+        border-radius: 0px 0px 40% 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        margin-bottom: 1em;
+    }
+    .circulo .foto{
+        position: relative;
+        border-radius: 50%;
+        background-color: white;
+        margin: 20px;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 30px;
+        margin: 0px;
+    }
+    /*============================
+    Cuerpo web 1440px
+    ==============================*/
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        border-radius: 20px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .salir{
+        position: relative;
+        left: 92%;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .col-xxl-4{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 50px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 30px;
+        margin: 0;
+    }
+    .form-control{
+        font-size: 25px;
+    }
+    .form-select{
+        font-size: 25px;
+    }
+    .paragraph{
+        font-size: 25px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 25px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    .modal-title{
+        font-size: 25px;
+    }
+    /*==================================
+        Carrouesel editado 1440px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 400px;
+    }
+    #carousel-item img{
+        height: 300px;
+        margin-left: 25%;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+}
+@media(max-width: 1366px){
+    .btn-esc{
+        padding: 6px 10px 0px 10px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .circulo{
+        position: relative;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 37vh;
+        border-radius: 0px 0px 40% 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        margin-bottom: 1em;
+    }
+    .circulo .foto{
+        position: relative;
+        border-radius: 50%;
+        background-color: white;
+        margin-right: 2em;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 170px;
+        width: 170px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 30px;
+        margin: 0px;
+    }
+    /*============================
+    Cuerpo web 1366px
+    ==============================*/
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        width: 80%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .salir{
+        position: relative;
+        left: 92%;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .col-xxl-4{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 30px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 30px;
+        margin: 0;
+    }
+    .paragraph{
+        font-size: 25px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 25px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    .modal-header{
+        padding: 20px;
+    }
+    .modal-header button{
+        width: 10px;
+        height: 10px;
+        padding: 10px !important;
+        margin: 0px !important;
+    }
+    .modal-title{
+        font-size: 25px;
+    }
+    .modal-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .modal-footer button{
+        font-size: 25px;
+    }
+    /*==================================
+        Carrouesel editado 1366px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 400px;
+    }
+    #carousel-item img{
+        height: 280px !important;
+        margin-left: 22%;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+}
+@media(max-width: 1024px){
+    .btn-esc{
+        padding: 2px 15px 0px 15px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    /*==========================
+    Estilos sweet alert para moviles
+    ============================*/
+    .circulo{
+        position: relative;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 37vh;
+        border-radius: 0px 0px 40% 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+        margin-bottom: 1em;
+    }
+    .circulo .foto{
+        position: relative;
+        border-radius: 50%;
+        background-color: white;
+        margin: 1em;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 130px;
+        width: 130px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 25px;
+        margin: 0px;
+    }
+    /*============================
+    Cuerpo web 1024px
+    ==============================*/
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 20px;
+    }
+    .salir{
+        position: relative;
+        left: 92%;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .col-lg-6{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 30px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 30px;
+        margin: 0;
+    }
+    .form-control{
+        font-size: 25px;
+    }
+    .form-select{
+        font-size: 25px;
+    }
+    .paragraph{
+        font-size: 20px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 20px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    /*==================================
+        Acordeon editado 1024px
+    ====================================*/
+    .accordion-button{
+        padding: 15px;
+    }
+    /*==================================
+        Carrouesel editado 1024px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 400px;
+    }
+    #carousel-item img{
+        height: 280px !important;
+        margin-left: 10%;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+    h5{
+        font-size: 35px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 768px){
+    .btn-esc{
+        padding: 2px 8px 0px 8px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+    /*==========================
+    Estilos sweet alert para moviles
+    ============================*/
+    .swal2-popup{
+        padding: 0 !important;
+    }
+    .swal2-header{
+        padding: 0 !important;
+    }
+    .swal2-icon{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .swal2-content{
+        padding: 5px !important;
+    }
+    .swal2-actions{
+        margin-top: 0 !important;
+    }
+    /*==========================
+    Estilos cuerpo de la pagina
+    ============================*/
+    .circulo{
+        position: relative;
+        bottom: 50px;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 30vh;
+        border-radius: 50px 50px 50% 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .circulo .foto{
+        position: relative;
+        top: 30px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 25px;
+        margin: 0px;
+    }
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 90%;
+        border-radius: 20px;
+    }
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .col-6{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 30px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 25px;
+        margin: 0;
+    }
+    .form-control{
+        font-size: 22px;
+    }
+    .form-select{
+        font-size: 22px;
+    }
+    .paragraph{
+        font-size: 20px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 20px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    /*==================================
+        Acordeon editado 768px
+    ====================================*/
+    .accordion-button{
+        padding: 15px;
+    }
+    /*==================================
+        Carrouesel editado 768px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 360px;
+    }
+    #carousel-item img{
+        height: 260px !important;
+        margin-left: 3%;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+    h5{
+        font-size: 35px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 430px){
+    /* booton esc */
+    .btn-esc{
+        padding: 2px 8px 0px 8px;
+        border-radius: 10px;
+        background: #000;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    .btn-esc:hover{
+        color: white;
+    }
+    .btn-esc:active{
+        transform: translateY(6px);
+        color: white;
+    }
+    .btn-esc:active.btn-esc:after{
+        bottom: 0;
+    }
+    .btn-esc:after{
+        content: '';
+        width: 100%;
+        left: 0%;
+        bottom: -6px;
+        height: 100%;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    /*==========================
+    Estilos sweet alert para moviles
+    ============================*/
+    .swal2-popup{
+        padding: 0 !important;
+    }
+    .swal2-header{
+        padding: 0 !important;
+    }
+    .swal2-icon{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .swal2-content{
+        padding: 5px !important;
+    }
+    .swal2-actions{
+        margin-top: 0 !important;
+    }
+    /*==========================
+    Estilos cuerpo de la pagina
+    ============================*/
+    .circulo{
+        position: relative;
+        bottom: 30px;
+        background-image: radial-gradient(circle at 48.22% 29.62%, #a4cf3a 0, #89c937 16.67%, #67bf31 33.33%, #34b128 50%, #00a323 66.67%, #009726 83.33%, #00902f 100%);
+        width: 100%;
+        height: 30vh;
+        border-radius: 30px 30px 50% 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .circulo .foto{
+        position: relative;
+        top: 30px;
+        border-radius: 50%;
+        background-color: white;
+        margin: .0em .5em;
+    }
+    .circulo .foto .imgfoto{
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        padding: 6px;
+    }
+    .circulo .nombre{
+        position: relative;
+        top: 0px;
+    }
+    .circulo .nombre h3{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .main-container{
+        position: relative;
+        top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 90%;
+        border-radius: 20px;
+    }
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .col-6{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .col-12{
+        margin-bottom: 15px;
+    }
+    .title{
+        text-align: center;
+        border-bottom: solid 3px #ffe82a;
+    }
+    .title h3{
+        margin: 0;
+        font-size: 30px;
+    }
+    .subtitle{
+        text-align: center
+    }
+    .subtitle .sub{
+        font-size: 15px;
+        margin: 0;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+    .form-select{
+        font-size: 12px;
+    }
+    .paragraph{
+        font-size: 15px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .editar{
+        border: 0px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 20px;
+        width: 100%;
+    }
+    h6{
+        font-size: 24px;
+    }
+    .modal-header{
+        padding: 20px;
+    }
+    .modal-header button{
+        width: 10px;
+        height: 10px;
+        padding: 10px !important;
+        margin: 0px !important;
+    }
+    .modal-title{
+        font-size: 25px;
+    }
+    .modal-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .modal-footer button{
+        font-size: 13px;
+    }
+    /*==================================
+        Acordeon editado 425px
+    ====================================*/
+    .accordion-button{
+        padding: 10px;
+        font-size: 24px;
+    }
+    /*==================================
+        Carrouesel editado 425px
+    ====================================*/
+    .carrouesel-inner{
+        margin-bottom: 3em;
+        padding-bottom: 5em !important;
+    }
+    #carousel-item{
+        width: 100%;
+        height: 200px;
+    }
+    #carousel-item img{
+        height: 90px !important;
+    }
+    .carousel-caption{
+        width: 100%;
+        bottom: 0px !important;
+        left: 0px !important;
+        text-align: left;
+        padding: 0 !important;
+        background: #fff;
+    }
+    .carousel-caption h5{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        margin-bottom: -1em;
+    }
+    h5{
+        font-size: 26px;
+    }
+    p{
+        font-size: 15px;
+    }
+}

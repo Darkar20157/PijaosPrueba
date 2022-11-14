@@ -1,0 +1,164 @@
+@media(max-width: 1920px){
+    body{
+        margin: auto;
+    }
+    .container-loader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        z-index: 100;
+        opacity: 1;
+        transition: all 200ms ease-in;
+    }
+    .container-loader .loarder{
+        display: flex;
+        justify-content: center;
+    }
+    .container-loader .loarder::before{
+        content: '';
+        position: absolute;
+        top: 60%;
+        width: 2%;
+        height: 20px;
+        background-color: #9b9b9b61;
+        border-radius: 50%;
+        animation: sombra 2s infinite;
+    }
+    .container-loader .loarder img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        transform: translateY(10px);
+        animation: saltar 2s infinite;
+    }
+    @keyframes saltar{
+        0%{
+            transform: translateY(10px);
+        }
+        50%{
+            transform: translateY(30px);
+        }
+    }
+    @keyframes sombra{
+        0%{
+            width: 2%;
+        }
+        50%{
+            width: 4%;
+        }
+    }
+}
+@media(max-width: 1366px){
+    body{
+        margin: auto;
+    }
+    .container-loader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        z-index: 100;
+        opacity: 1;
+        transition: all 200ms ease-in;
+    }
+    .container-loader .loarder{
+        display: flex;
+        justify-content: center;
+    }
+    .container-loader .loarder::before{
+        content: '';
+        position: absolute;
+        top: 57%;
+        width: 2%;
+        height: 20px;
+        background-color: #9b9b9b61;
+        border-radius: 50%;
+        animation: sombra 2s infinite;
+    }
+    .container-loader .loarder img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        transform: translateY(0px);
+        animation: saltar 2s infinite;
+    }
+    @keyframes saltar{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(16px);
+        }
+    }
+    @keyframes sombra{
+        0%{
+            width: 2%;
+        }
+        50%{
+            width: 6%;
+        }
+    }
+}
+@media(max-width: 430px){
+    body{
+        margin: auto;
+    }
+    .container-loader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        z-index: 100;
+        opacity: 1;
+        transition: all 200ms ease-in;
+    }
+    .container-loader .loarder{
+        display: flex;
+        justify-content: center;
+    }
+    .container-loader .loarder::before{
+        content: '';
+        position: absolute;
+        top: 57%;
+        width: 10%;
+        height: 20px;
+        background-color: #9b9b9b61;
+        border-radius: 50%;
+        animation: sombra 2s infinite;
+    }
+    .container-loader .loarder img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        animation: saltar 2s infinite;
+    }
+    @keyframes saltar{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(16px);
+        }
+    }
+    @keyframes sombra{
+        0%{
+            width: 10%;
+        }
+        50%{
+            width: 20%;
+        }
+    }
+}

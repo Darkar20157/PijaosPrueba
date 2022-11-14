@@ -1,0 +1,17 @@
+body{
+    background-image: url("../img/error404.gif");
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    background-position-y: -170px;
+}
+/*
+.invisibility{
+    border: none;
+    border-radius;
+    font-size: 30px;
+    position: absolute;
+    top: 83%;
+    left: 38%;
+    width: 24%;
+    height: 10%;
+}*/

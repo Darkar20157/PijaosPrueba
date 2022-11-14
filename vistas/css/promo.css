@@ -1,0 +1,124 @@
+@media(max-width: 425px){
+    .input-group-label{
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        background-color: gray;
+    }
+    .input-group-label label{
+        border-radius: 30px;
+        padding: 10px 15px 10px 15px;
+    
+    }
+    .input-group-label input{
+        width: 100%;
+        border-radius: 30px;
+        border: solid 2px #9d9d9d;
+        border-radius: 20px;
+    }
+    .input-group-label input:disabled{
+        background-color: white;
+        font-size: 25px;
+    }
+    .title-premios-mayores{
+        text-align: center;
+    }
+    .col-6{
+        width: 50%;
+        padding: 5px;
+    }
+    .main-card{
+        position: relative;
+        width: 100%;
+        border: solid 1px rgba(0, 0, 0, 0.125);
+        border-radius: 10px;
+        box-shadow: 5px 10px 5px 0px #0000001c;
+    }
+    .main-card:hover{
+        box-shadow: 5px 10px 5px 2px #00000024;
+    }
+    .main-card .card-img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.24);
+    }
+    
+    .main-card .card-img img{
+        width: 150px;
+        height: 120px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px;
+        object-fit: contain;
+    }
+    .main-card .card-content .title-card{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+    .main-card .card-content .title-card h5{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .main-card .card-content .title-card h6{
+        font-size: 10px;
+        margin: 0px;
+        color: #9d9d9d;
+    }
+    .main-card .card-content .body-card{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 8px;
+    }
+    .main-card .card-content .body-card p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .main-card .card-content .body-card small{
+        font-size: 10px;
+        color: #9d9d9d;
+    }
+    .button-card{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    .button-card button{
+        line-height: .5;
+        padding: 10px 0px;
+        font-size: 15px;
+        width: 90%;
+    }
+    .main-card .card-content .footer-card{
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.03);
+        padding: 5px 10px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top: solid 1px rgba(0, 0, 0, 0.125);
+    }
+    .main-card .card-content .footer-card small{
+        font-size: 8px;
+    }
+    /*
+    #carousel-item{
+        height: 260px;
+    }
+    #carousel-item img{
+        height: 150px !important;
+        margin-left: -50px;
+    }
+    #carousel-item .carousel-caption h5{
+        font-size: 20px;
+        margin-bottom: 0rem;
+    }
+    #carousel-item .carousel-caption p{
+        font-size: 15px;
+        margin-bottom: 0rem;
+        padding: 0px;
+    }*/
+}
